@@ -6,7 +6,7 @@ public abstract class Shape {
 
     public Shape() {
         this.color = "black";
-        this.filled = true;
+        this.filled = false;
     }
     public Shape(String color, boolean filled) {
         this.color = color;

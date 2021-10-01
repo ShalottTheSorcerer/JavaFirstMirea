@@ -1,10 +1,15 @@
 package ru.mirea.task7.prac_03;
+import java.math.*;
 
 class Circle extends Shape {
     protected double radius;
 
     public Circle() {
         this.radius = 1;
+    }
+    public Circle(double radius) {
+        super();
+        this.radius = radius;
     }
     public Circle (double radius, String color, boolean filled) {
         super(color, filled);
@@ -17,10 +22,10 @@ class Circle extends Shape {
         this.radius = radius;
     }
     public double getArea() {
-        return 3.14 * this.radius * this.radius;
+        return Math.PI * this.radius * this.radius;
     }
     public double getPerimeter() {
-        return 2 * 3.14 * this.radius;
+        return 2 * Math.PI * this.radius;
     }
     public String toString() {
         if (this.filled) {

@@ -1,10 +1,10 @@
 package ru.mirea.task2.prac_01;
 
-public class TestSword {
+public class TestBook {
     public static void main(String[] args) {
-        Sword s1 = new Sword("short","saber","falchion");
-        Sword s2 = new Sword();
-        Sword s3 = new Sword("zweihander");
+        Book s1 = new Book("J.K. Rowling","novel","Harry Potter");
+        Book s2 = new Book();
+        Book s3 = new Book("Test name");
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);

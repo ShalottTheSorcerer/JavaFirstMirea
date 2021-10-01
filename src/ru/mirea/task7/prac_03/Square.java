@@ -1,33 +1,29 @@
 package ru.mirea.task7.prac_03;
 
 class Square extends Rectangle{
-    protected double side;
 
     public Square(double side) {
         super();
-        this.side = side;
+        this.width = side;
+        this.length = side;
     }
     public Square(double side, String color, boolean filled) {
         super(color, filled);
-        this.side = side;
-    }
-    public double getArea() {
-        return this.side * this.side;
-    }
-    public double getPerimeter() {
-        return 4 * this.side;
-    }
-    public void setLength(double length) {
-        this.length = length;
-    }
-    public void setWidth(double width) {
-        this.width = width;
+        this.width = side;
+        this.length = side;
     }
     public void setSide(double side) {
-        this.side = side;
+        this.length = side;
+        this.width = width;
     }
     public double getSide() {
-        return side;
+        return width;
+    }
+    public void setLength(double side) {
+        this.length = side;
+    }
+    public void setWidth(double side) {
+        this.width = side;
     }
     public String toString() {
         if (this.filled) {

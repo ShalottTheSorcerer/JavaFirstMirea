@@ -8,6 +8,7 @@ public class Circle {
         radius = r;
     }
     public Circle() {
+        radius = 1;
     }
     public double getRadius() {
         return radius;

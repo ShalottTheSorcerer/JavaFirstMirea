@@ -39,6 +39,6 @@ public class Sword {
         return name;
     }
     public String toString() {
-        return "This "+this.name+" is "+this.length+" "+this.type;
+        return "This "+this.name+" is a "+this.length+" "+this.type;
     }
 }
