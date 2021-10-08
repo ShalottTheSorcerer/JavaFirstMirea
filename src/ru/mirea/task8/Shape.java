@@ -1,12 +1,16 @@
 package ru.mirea.task8;
 
-public abstract class Shape {
-    protected double x = Math.random()*500;
-    protected double y = Math.random()*500;
-    protected double z = Math.random()*500;
-    protected double q = Math.random()*500;
-    protected double r = Math.random()*255;
-    protected double g = Math.random()*255;
-    protected double b = Math.random()*255;
+import java.awt.*;
 
+public abstract class Shape {
+    protected int x;
+    protected int y;
+    protected Color color;
+
+    public Shape() {
+        this.x = (int)(Math.random() * 800);
+        this.y = (int)(Math.random() * 800);
+        this.color = new Color((int)(Math.random() * 255),(int)(Math.random() * 255),(int)(Math.random() * 255));
+    }
 }
+
