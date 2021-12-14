@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task7.prac_03</OriginalElement>
+  <nodes>
+    <node x="0.0" y="311.0">ru.mirea.task7.prac_03.MovableCircle</node>
+    <node x="70.0" y="0.0">ru.mirea.task7.prac_03.Shape</node>
+    <node x="342.0" y="232.0">ru.mirea.task7.prac_03.TestShape</node>
+    <node x="9.0" y="158.0">ru.mirea.task7.prac_03.Square</node>
+    <node x="132.0" y="79.0">ru.mirea.task7.prac_03.Circle</node>
+    <node x="0.0" y="79.0">ru.mirea.task7.prac_03.Rectangle</node>
+    <node x="95.75" y="232.0">ru.mirea.task7.prac_03.Movable</node>
+    <node x="159.0" y="311.0">ru.mirea.task7.prac_03.MovablePoint</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task7.prac_03.MovableCircle" target="ru.mirea.task7.prac_03.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="69.5" y="286.0" />
+      <point x="148.75" y="286.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task7.prac_03.Square" target="ru.mirea.task7.prac_03.Rectangle" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task7.prac_03.MovablePoint" target="ru.mirea.task7.prac_03.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="228.0" y="286.0" />
+      <point x="148.75" y="286.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task7.prac_03.Circle" target="ru.mirea.task7.prac_03.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="174.0" y="54.0" />
+      <point x="115.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task7.prac_03.Rectangle" target="ru.mirea.task7.prac_03.Shape" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="56.0" y="54.0" />
+      <point x="115.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="228.5" y="170.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
